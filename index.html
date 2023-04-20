@@ -1,18 +1,83 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Jokes Generator</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
-  </head>
-  <body>
-    <div class="container">
-      <h1>Jokes Generator</h>
-      <div id="joke" class="joke">Joke is loading ...</div>
-      <button id="jokeBtn" class="btn">Next Joke</button>
+<html lang="en">
+<head>
+    <title>Joke Generator</title>
+    <script defer src="index.js" type="text/javascript"></script>
+    <script src="https://kit.fontawesome.com/92930ce73e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div id="userInfoDiv">
+        <form id="create-account-form">
+            <h5 class="userInfoLabel">Create an Account</h5>
+            <input type="text" placeholder="Enter Username" name="newUserName" required>
+            <br>
+            <input type="password" placeholder="Enter Password" name="newPassword" required>
+            <br>
+            <button type="submit" id="createAccountButton">Create Account</button><br><br>
+        </form>
+        <h1 id="title">Joke Gen</h1>
+        <form id="login-form">
+            <h5 class="userInfoLabel">Login</h5>
+            <input type="text" placeholder="Enter Username" name="userName" required>
+            <br>
+            <input type="password" placeholder="Enter Password" name="password" required>
+            <br>
+            <button type="submit" id="loginButton">Login</button>
+        </form>
     </div>
-    <script src="index.js"></script>
-  </body>
+    <h4 id="intro">With help from our friends at <a href="https://sv443.net/jokeapi/v2/" target="_blank" style="color: white; text-decoration: none"><em>jokeapi.dev</em></a>, you can enjoy all the jokes you'd like, one laugh at a time!
+        <br>Simply click to generate a joke at random, upvote for the good ones and downvote for the not-so-good ones.
+        <br>If you <em>REALLY</em> like a joke and want to save it for later, make sure to create an account and bookmark it for later!
+    </h4>
+    <div id="category-menu-div">
+        <h2 id="category-menu-title">Click Below for a Joke:</h2>
+        <p id="category-menu"><span id="Programming" class="catSpan">Programming</span> <span id="Pun" class="catSpan">Puns</span> <span id="Spooky" class="catSpan">Spooky</span> <span id="Christmas" class="catSpan">Christmas</span> <span id="Misc" class="catSpan">Other</span> <span id="Any" class="catSpan">Random</span></p>
+    </div>
+    <div id="joke-display" class="newSection">
+        <span id="joke-setup" class="joke-label"></span>
+        <br><br>
+        <span id="joke-punchline" class="joke-label"></span>
+        <br><br>
+    </div>
+    <div id="feedback" class="newSection">
+        <p id="total-likes">Total Laughs Had: <span id="like-counter">0</span></p>
+        <i id="like-btn" class="btn fa-regular fa-thumbs-up"></i>
+        <i id="dislike-btn" class="btn fa-regular fa-thumbs-down"></i>
+        <i id="bookmark-btn" class="btn fa-regular fa-bookmark"></i>
+    </div>
+    <div id="submit-form-div" class="newSection">
+        <h3 id="submit-form-title">Submit a Joke!</h3>
+        <form id="submit-joke">
+            <input type="text" class="jokeInput" id="joke-name-input" name="name" placeholder="Your Name" required>
+            <br>
+            <input type="text" class="jokeInput" id="joke-category-input" name="category" placeholder="Joke Category" required>
+            <br>
+            <textarea class="jokeInput" id="joke-setup-input" name="setup" placeholder="Joke Setup" rows="2" required></textarea>
+            <br>
+            <textarea class="jokeInput" id="joke-punchline-input" name="punchline" placeholder="Joke Punchline" rows="2" required></textarea>
+            <br>
+            <button type="submit" id="submit-joke-btn" class="btn normal-btn" name="submit-joke">Submit Joke</button>
+        </form>
+    </div>
+    <div id="joke-library" class="newSection">
+        <label for="joke-dropdown"><strong>See Your Joke Library Here:</strong></label>
+        <br>
+        <select id="joke-dropdown" name="select-category">
+            <option class="option" value="Select-Category">Select Category</option>
+            <option class="option" value="Programming">Programming</option>
+            <option class="option" value="Pun">Pun</option>
+            <option class="option" value="Spooky">Spooky</option>
+            <option class="option" value="Christmas">Christmas</option>
+            <option class="option". value="Misc">Misc</option>
+        </select>
+    </div>
+    <div id="joke-library-display"></div>    
+    <footer>
+        Kelvin Nyoike Waweru
+        <br><br>
+        Moringa Phase 1 Project, 2023
+    </footer>
+</body>
 </html>

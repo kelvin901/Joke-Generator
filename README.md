@@ -1,20 +1,97 @@
-#Kelvin's Jokes Generator
+# phase-1-code-challenge
+# Joke Generator
 
-Kelvin's Jokes Generator is a web application that generates random jokes using JavaScript, CSS, and HTML. The application is licensed under the MTC (MIT, ISC, and Apache-2.0) license, meaning that you are free to use, modify, and distribute the code as long as you give attribution to the original author.
-Kelvin's Jokes Generator is a web application that generates random jokes fetched from the icanhazdadjoke API using JavaScript
+This project is a simple web application that generates random jokes using the JokeAPI from https://sv443.net/jokeapi/v2/. The application is built using JavaScript, HTML, and CSS, and utilizes the `fetch` function to retrieve data from the API. The application also includes a `db.json` file which serves as a local database for storing favorite jokes.
 
-#Usage
+## Author
 
-To use Kelvin's Jokes Generator, simply click on the following link: https://kelvin901.github.io/Kelvin-s--Jokes-Generator/. The application will generate a random joke every time you click the "Generate Joke" button. You can also click the "Copy Joke" button to copy the current joke to your clipboard.Or simply visit the web application using the link above or clone the repository and open the index.html file in your web browser. Click on the "Generate Joke" button to fetch a random joke from the icanhazdadjoke API and display it on the screen
+Kelvin Nyoike
 
-#Contributing
+## Technologies Used
 
-If you would like to contribute to Kelvin's Jokes Generator, feel free to fork the repository and submit a pull request. Please make sure to follow the project's coding standards and guidelines, which can be found in the CONTRIBUTING.md file.
+- HTML
+- CSS
+- JavaScript
+- JokeAPI
+- db.json
 
-#License
+## Installation
 
-Kelvin's Jokes Generator is licensed under the MIT license. For more information, please see the LICENSE.md file.
+To run the application locally, follow these steps:
 
-#Contact
+1. Clone the repository or download the ZIP file.
+2. Navigate to the root directory of the project.
+3. Open `index.html` in your preferred web browser.
 
-If you have any questions or concerns regarding Kelvin's Jokes Generator, please feel free to contact the author, Kelvin N Nyoike, at https://github.com/kelvin901.
+## Usage
+
+To generate a random joke, click the "Generate Joke" button. To save a joke to your favorites list, click the "Favorite" button. To view your favorite jokes, click the "View Favorites" button.
+
+## Credits
+
+This project was built using the JokeAPI from https://sv443.net/jokeapi/v2/.
+
+## License
+
+This project is licensed under the MIT License.
+## Checklist/Outline
+
+Create Basic HTML Structure - COMPLETE
+Fill it in with Divs/Forms/Title/etc - COMPLETE
+Little CSS - COMPLETE
+Fetch JavaScript Data and Render On Page (randomly) - COMPLETE (for two liners)
+Add Buttons to Render New Joke - COMPLETE (for two liners)
+Add Function to Hide Punch Line for Two Liners - COMPLETE
+Reveal Punchline Button/Hover/whatever - COMPLETE
+Add Upvote/DownVote Buttons - COMPLETE
+Add Bookmark Button - COMPLETE
+Add Joke Submission Form - COMPLETE (for two liners)
+    -Name
+    -Setup
+    -Punchline
+        -Note: Either the Setup or the Punchline will need to be optional in case of one liner joke
+    -Category
+Joke Request Form - COMPLETE
+    -Dropdown Selections for Categories
+    -Or a Checklist
+    -?
+
+
+
+
+
+
+Maybe a Dark/Light Mode Toggle Event Listener?
+
+Add Font Awesome Icons for Buttons, etc - COMPLETE
+
+For Reference:  These Functions have been consolidated into one function, "postJoke"
+// const postBookmarkedJoke = (bookmarkedJokePost) => {
+//     fetch(LOCAL_URL + "bookmarkedJoke", {
+//         method: "POST",
+//         headers: {
+//             "Content-Type": "application/json",
+//         },
+//         body: JSON.stringify(bookmarkedJokePost),
+//     })
+//     .then((response) => response.json())
+//     .then((bookmarkedJokePost) => {
+//         console.log("Success:", bookmarkedJokePost);
+//     })
+//     .catch((error) => console.error(error))
+// }
+
+// const postUserJoke = (userJokePost) => {
+//     fetch(LOCAL_URL + "userJoke", {
+//         method: "POST",
+//         headers: {
+//             "Content-Type": "application/json",
+//         },
+//         body: JSON.stringify(userJokePost),
+//     })
+//     .then((response) => response.json())
+//     .then((userJokePost) => {
+//         console.log("Success:", userJokePost);
+//     })
+//     .catch((error) => console.error(error))
+// }

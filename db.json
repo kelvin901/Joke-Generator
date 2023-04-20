@@ -1,0 +1,152 @@
+{
+    "userJokes": [
+      {
+        "name": "Connor",
+        "category": "Knock Knock",
+        "setup": "Knock knock",
+        "delivery": "Is there an owl in here",
+        "id": 1
+      },
+      {
+        "name": "Connor",
+        "category": "Knock Knock",
+        "setup": "Knock knock.  Who's there? Annie. Anni who?...\n",
+        "delivery": "Annie thing you can do, I can do too!",
+        "id": 8
+      },
+      {
+        "name": "test",
+        "category": "test",
+        "setup": "test",
+        "delivery": "test",
+        "id": 9
+      },
+      {
+        "name": "test",
+        "category": "test",
+        "setup": "test",
+        "delivery": "test",
+        "id": 10
+      }
+    ],
+    "likeCounter": [
+      {
+        "id": 1,
+        "destination": "likeCounter",
+        "total": "72"
+      }
+    ],
+    "users": [
+      {
+        "userName": "Connor",
+        "password": "imconnor",
+        "bookmarks": [
+          {
+            "category": "Programming",
+            "setup": "What do you call a group of 8 Hobbits?",
+            "delivery": "A Hobbyte."
+          },
+          {
+            "category": "Programming",
+            "setup": "Why do Java programmers hate communism?",
+            "delivery": "They don't want to live in a classless society."
+          },
+          {
+            "category": "Pun",
+            "setup": "To prove he was right, the flat-earther walked to the end of the Earth.",
+            "delivery": "He eventually came around."
+          },
+          {
+            "category": "Programming",
+            "setup": "What do you get if you lock a monkey in a room with a typewriter for 8 hours?",
+            "delivery": "A regular expression."
+          },
+          {
+            "category": "Programming",
+            "setup": "why do python programmers wear glasses?",
+            "delivery": "Because they can't C."
+          },
+          {
+            "category": "Misc",
+            "setup": "\"99.9% of the people are dumb!\"",
+            "delivery": "\"Fortunately I belong to the remaining 1%\""
+          },
+          {
+            "category": "Misc",
+            "setup": "My mother said, \"You won't amount to anything because you always procrastinate.\"",
+            "delivery": "I said, \"Oh yeah... Just you wait.\""
+          },
+          {
+            "category": "Misc",
+            "setup": "What's the difference between an in-law and an outlaw?",
+            "delivery": "An outlaw is wanted."
+          },
+          {
+            "category": "Misc",
+            "setup": "My wife left me because I'm too insecure and paranoid.",
+            "delivery": "Oh wait, never mind. She was just getting the mail."
+          },
+          {
+            "category": "Pun",
+            "setup": "I asked my wife if I was the only one she's been with.",
+            "delivery": "She said, \"Yes, the others were at least sevens or eights.\""
+          },
+          {
+            "category": "Spooky",
+            "setup": "Why did the ghost go inside the bar?",
+            "delivery": "For the boos."
+          },
+          {
+            "category": "Programming",
+            "setup": "So what's a set of predefined steps the government might take to preserve the environment?",
+            "delivery": "An Al-Gore-ithm."
+          },
+          {
+            "category": "Programming",
+            "setup": "Hey, wanna hear a joke?",
+            "delivery": "Parsing HTML with regex."
+          },
+          {
+            "category": "Programming",
+            "setup": "Why did the programmer jump on the table?",
+            "delivery": "Because debug was on his screen."
+          },
+          {
+            "category": "Pun",
+            "setup": "What kind of car did Whitney Houston drive?",
+            "delivery": "A Hyundaiiiiiiiiiiii"
+          },
+          {
+            "category": "Christmas",
+            "setup": "Why does Santa have three gardens?",
+            "delivery": "So he can 'ho ho ho'!"
+          }
+        ],
+        "id": 26
+      },
+      {
+        "userName": "Matt",
+        "password": "immatt",
+        "bookmarks": [
+          {
+            "category": "Programming",
+            "setup": "Why are Assembly programmers always soaking wet?",
+            "delivery": "They work below C-level."
+          }
+        ],
+        "id": 27
+      },
+      {
+        "userName": "Derrick",
+        "password": "imderrick",
+        "bookmarks": [],
+        "id": 28
+      },
+      {
+        "userName": "alanlepar",
+        "password": "t",
+        "bookmarks": [],
+        "id": 29
+      }
+    ]
+  }
