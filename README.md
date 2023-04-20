@@ -23,6 +23,9 @@ To run the application locally, follow these steps:
 2. Navigate to the root directory of the project.
 3. Open `index.html` in your preferred web browser.
 
+## OR
+Simply click https://kelvin901.github.io/Joke-Generator/
+
 ## Usage
 
 To generate a random joke, click the "Generate Joke" button. To save a joke to your favorites list, click the "Favorite" button. To view your favorite jokes, click the "View Favorites" button.
