@@ -1,4 +1,4 @@
-# phase-1-code-challenge
+# phase-1-Independent Project
 # Joke Generator
 
 This project is a simple web application that generates random jokes using the JokeAPI from https://sv443.net/jokeapi/v2/. The application is built using JavaScript, HTML, and CSS, and utilizes the `fetch` function to retrieve data from the API. The application also includes a `db.json` file which serves as a local database for storing favorite jokes.
